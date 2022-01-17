@@ -1,0 +1,40 @@
+// 字体颜色
+@mixin font_color($color) {
+  color: $color;
+
+  [data-theme="green"] & {
+    color: $theme-green;
+  }
+
+  [data-theme="blue"] & {
+    color: $theme-blue;
+  }
+
+  [data-theme="dark-blue"] & {
+    color: $theme-dark-blue;
+  }
+
+  [data-theme="purple"] & {
+    color: $theme-purple;
+  }
+
+  [data-theme="pink"] & {
+    color: $theme-pink;
+  }
+
+  [data-theme="cyan"] & {
+    color: $theme-cyan;
+  }
+
+  [data-theme="lake"] & {
+    color: $theme-lake;
+  }
+
+  [data-theme="blue-purple"] & {
+    color: $theme-blue-purple;
+  }
+  
+  [data-theme="black"] & {
+    color: $theme-black;
+  }
+}

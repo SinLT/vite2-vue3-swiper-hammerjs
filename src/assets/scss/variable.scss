@@ -1,0 +1,132 @@
+//  变量
+$url: "../..";
+$theme-bgc-three: #e5e5e5;// 床位背景色
+$theme-color: #7e65aa; //主题色
+$theme-bgc: #e8e1f5; //比主题色浅一度的紫色
+$theme-bgc-2: #f9f6ff;
+$theme-bedBorder:#ddd4ee; //床号框的颜色
+$theme-shadow: #a9a5a4; //投影颜色
+$theme-color2:#4F5E7B;
+$theme-color3:#555;
+$theme-color4:#2F3863;
+$theme-bgcolor:#EBEBEB;
+$theme-f6:#f6f6f6;
+$theme-4A:#4A4A4A;
+
+$theme-default: #7e65aa !default;
+$theme-default-2: #e8e1f5 !default;
+$theme-default-3: #ddd4ee !default;
+$theme-default-4: #f9f6ff !default;
+$theme-default-5: #9778CE  !default;
+$theme-default-6: #ffffff  !default;
+$theme-default-7: #f5f5f6  !default;
+$theme-default-8: #b3b3b3  !default;
+$theme-default-9: #F0F0F0  !default;
+$theme-default-10: #BDC5D1  !default;
+$theme-default-11: #8e7fa7  !default;
+$theme-default-12: #71697d  !default;
+// 绿色主题
+$theme-green-linear: #53AA7E !default;
+$theme-green: #53AA7E !default;
+$theme-green-2: #68ac8a !default;
+$theme-green-6: #212121 !default;
+$theme-green-7: #5d5d5d  !default;
+$theme-green-8: #c6c6c6  !default;
+$theme-green-9: #d6eae0  !default;
+$theme-green-10: #d5eceb  !default;
+$theme-green-11: #E4C47C  !default;
+// 天蓝主题
+$theme-blue-linear: #556BFA !default;
+$theme-blue: #556BFA !default;
+$theme-blue-2: #7283f1 !default;
+$theme-blue-6: #1a1a1b  !default;
+$theme-blue-7: #4d5368  !default;
+$theme-blue-8: #bdbec8  !default;
+$theme-blue-9: #ebedfd  !default;
+$theme-blue-10: #E4E9F7  !default;
+$theme-blue-11: #FF942D  !default;
+// 深蓝主题
+$theme-dark-blue-linear: #4244A3 !default;
+$theme-dark-blue: #4244A3 !default;
+$theme-dark-blue-2: #5b5ca0 !default;
+$theme-dark-blue-6: #292929  !default;
+$theme-dark-blue-7: #5c5c5c  !default;
+$theme-dark-blue-8: #595959  !default;
+$theme-dark-blue-9: #dedef3  !default;
+$theme-dark-blue-10: #e1e8f3  !default;
+$theme-dark-blue-11: #F2B847  !default;
+// 紫色主题
+$theme-purple-linear: #8757BD !default;
+$theme-purple: #8757BD !default;
+$theme-purple-2: #9470bd !default;
+$theme-purple-6: #1f1f1f  !default;
+$theme-purple-7: #5c5c5c  !default;
+$theme-purple-8: #b1b1b1  !default;
+$theme-purple-9: #e6ddf1  !default;
+$theme-purple-10: #dfd7ef  !default;
+$theme-purple-11: #3BC9EE  !default;
+// 粉色主题
+$theme-pink-linear: #E64E7B !default;
+$theme-pink: #E64E7B !default;
+$theme-pink-2: #e66d91 !default;
+$theme-pink-6: #252d29  !default;
+$theme-pink-7: #565968  !default;
+$theme-pink-8: #bbbabb  !default;
+$theme-pink-9: #f2dae3  !default;
+$theme-pink-10: #efdde3  !default;
+$theme-pink-11: #abbfff  !default;
+// 青主题
+$theme-cyan-linear: #008081 !default;
+$theme-cyan: #008081 !default;
+$theme-cyan-2: #1a9c9c !default;
+$theme-cyan-6: #232f2f  !default;
+$theme-cyan-7: #565d5d  !default;
+$theme-cyan-8: #9ea2a2  !default;
+// $theme-cyan-9: #ecf8f8  !default;
+$theme-cyan-9: #d1eaea  !default;
+$theme-cyan-10: #e6e2ef  !default;
+$theme-cyan-11: #FFA904  !default;
+// 湖绿色主题
+$theme-lake-linear: #32B8C0 !default;
+$theme-lake: #32B8C0 !default;
+$theme-lake-2: #3dbbc7 !default;
+$theme-lake-6: #21282f  !default;
+$theme-lake-7: #464c52  !default;
+$theme-lake-8: #b6b7b7  !default;
+$theme-lake-9: #d7ebec  !default;
+$theme-lake-10: #c9e9ec  !default;
+$theme-lake-11: #FF9941  !default;
+// 蓝紫色主题
+$theme-blue-purple-linear:  #7165E3 !default;
+$theme-blue-purple: #7165E3 !default;
+$theme-blue-purple-2: #8583fa !default;
+$theme-blue-purple-6: #292e3f  !default;
+$theme-blue-purple-7: #3d4767  !default;
+$theme-blue-purple-8: #b5b6bf  !default;
+$theme-blue-purple-9: #E9E9FF  !default;
+$theme-blue-purple-10: #e8e8f7  !default;
+$theme-blue-purple-11: #7FE4EE  !default;
+// 暗黑主题
+$theme-black-linear: #1A1A1D !default;
+$theme-black-linear-1: linear-gradient(0deg,#ffffff 0%,#ffffff 100%) !default;
+$theme-black: #999999 !default;
+$theme-black-2: #7e7d7d !default;
+$theme-black-6: #d3d3d3  !default;
+$theme-black-7: #a6a6a6  !default;
+$theme-black-8: #595959  !default;
+$theme-black-9: #19191A  !default;
+$theme-black-10: #19191A  !default;
+$theme-black-11: #222224  !default;
+$theme-black-2E: #2E2E2E  !default;
+$theme-black-12: #000000  !default;
+$theme-black-13: #090909  !default;
+$theme-black-14: #848484  !default;
+$theme-black-333: #333  !default;
+$theme-black-20: #202020  !default;
+$theme-black-32: #323234  !default;
+$theme-black-CF: #CFCFCF  !default;
+$theme-black-38: #383838  !default;
+$theme-black-91: #919191  !default;
+$theme-black-38D: #38393D  !default;
+$theme-black-0d: #0d0d0d  !default;
+$theme-black-17: #171718  !default;
